@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import {
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
+import Home from './components/Home/Home';
 import axios from 'axios';
 
 
 
-const Api = () => {
+const App = () => {
     const options = {
         method: 'GET',
         url: 'https://bookshelves.p.rapidapi.com/books',
@@ -18,7 +24,11 @@ const Api = () => {
       }).catch(function (error) {
           console.error(error);
       });
-
+      return (
+        <>
+            <Home />
+        </>
+      );
 };
 
-export default Api;
+export default App;
