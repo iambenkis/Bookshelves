@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiOutlineMenuFold, AiOutlineSetting  } from 'react-icons/ai';
 import { BiMicrophone } from 'react-icons/bi';
+import { ImSearch } from 'react-icons/im';
 import Books from '../Books/Books';
 
 
@@ -23,7 +24,11 @@ const Home = () => {
                 {width: '100%'}
             }/>
             <div className='band'>
-                BOOK WITH STARS AND PRICE
+                <p>BOOK WITH STARS AND PRICE</p>
+                <div>
+                    <input type='text' placeholder='Search...'/>
+                    <ImSearch />
+                </div>
             </div>
             <Books />
         </div>
