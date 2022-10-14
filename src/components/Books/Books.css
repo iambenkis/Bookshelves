@@ -26,8 +26,10 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: .7rem .5rem;
+    color: #fff;
 }
 
 .chevron {
     cursor: pointer;
+    color: #fff;
 }
