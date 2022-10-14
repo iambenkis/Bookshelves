@@ -1,9 +1,9 @@
 import React from 'react'
 import { AiOutlineMenuFold, AiOutlineSetting  } from 'react-icons/ai';
 import { BiMicrophone } from 'react-icons/bi';
-import { ImSearch } from 'react-icons/im';
+import { BiSearchAlt2 } from 'react-icons/bi';
 import Books from '../Books/Books';
-
+import './Home.css'
 
 const Home = () => {
     return (
@@ -14,8 +14,8 @@ const Home = () => {
                     <h3>My books</h3>
                 </div>
                 <div className='right-side'>
-                    <BiMicrophone />
-                    <AiOutlineSetting />
+                    <BiMicrophone className='micro'/>
+                    <AiOutlineSetting className='setting'/>
                 </div>
             </div>
             <img
@@ -27,8 +27,18 @@ const Home = () => {
                 <p>BOOK WITH STARS AND PRICE</p>
                 <div>
                     <input type='text' placeholder='Search...'/>
-                    <ImSearch />
+                    <div className='div-search'>
+                        <BiSearchAlt2 className='search'/>
+                    </div>
                 </div>
+            </div>
+            <div className='sort'>
+                    <select>
+                        <option>Sort by</option>
+                        <option>name</option>
+                        <option>star</option>
+                        <option>price</option>
+                    </select>
             </div>
             <Books />
         </div>
