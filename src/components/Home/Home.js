@@ -10,7 +10,7 @@ const Home = () => {
         <div className='container'>
             <div className='header'>
                 <div className='left-side'>
-                    <AiOutlineMenuFold />
+                    <AiOutlineMenuFold className='menu'/>
                     <h3>My books</h3>
                 </div>
                 <div className='right-side'>
