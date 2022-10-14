@@ -1,0 +1,48 @@
+.singleBook {
+    width: 100%;
+    font-size: 1rem;
+    background-color: #4189d1;
+    color: #fff;
+    padding: .5rem;
+}
+
+.singleBook .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.singleBook .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side h3 {
+    margin-left: .5rem;
+}
+
+.left-side .back {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.setting {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.singleBook span {
+    color: rgb(211, 211, 211);
+    text-align: center;
+    font-weight: 500;
+}
