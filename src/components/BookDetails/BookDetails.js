@@ -7,6 +7,7 @@ import { AiOutlineMenuFold, AiOutlineSetting  } from 'react-icons/ai';
 import { BiMicrophone } from 'react-icons/bi';
 import { ImSearch } from 'react-icons/im';
 import { FaChevronLeft } from 'react-icons/fa'
+import './Details.css'
 
 
 const BookDetail = () => {
@@ -15,35 +16,35 @@ const BookDetail = () => {
     useEffect(() =>{
         dispatch(getBooks());
     })
-    const books = bookStore.Books;
+    const books = bookStore?.Books;
     const { id } = useParams();
     const book = books?.find((book) => book.id == id);
     let regex = /[+-]?\d+(\.\d+)?/g;
     const getStars = (star) => {
-        const nbrStart = star.match(regex)[0];
+        const nbrStart = star?.match(regex)[0];
         return Number(nbrStart);
      }
     return (
-        <div>
+        <div className="singleBook">
             <div className="header">
                 <div className='left-side'>
                     <Link to='/'>
                         <FaChevronLeft className="back"/>
                     </Link>
-                    <h3>My books</h3>
+                    <h3>Book details</h3>
                 </div>
                 <div className='right-side'>
-                    <AiOutlineSetting />
+                    <AiOutlineSetting className="setting"/>
                 </div>
             </div>
-            <img src={book.imgUrl}/>
-            <h3>{book.title}</h3>
+            <img src={book?.imgUrl}/>
+            <h3>{book?.title}</h3>
             <div className="item-details">
-                <StarRating star={getStars(book.review)}/>
-                <p>{book.price}</p>
+                <StarRating star={getStars(book?.review)}/>
+                <p>{book?.price}</p>
             </div>
-            <p>{book.description}</p>
-            <span>Source : {book.source}</span>
+            <p className="description">{book?.description}</p>
+            <span>Source : {book?.source}</span>
         </div>
     )
 }
