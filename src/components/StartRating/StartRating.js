@@ -9,7 +9,7 @@ const StarRating = (props) => {
         <FaStar
           className="star"
           color={star <= i + 1 ? '#777' : '#ffc107'}
-          key
+          key={star}
         />
       ))}
     </div>

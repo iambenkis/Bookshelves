@@ -1,93 +1,92 @@
 .container {
-    background-color: #4189d1;
-    font-size: 1.5rem;
+  background-color: #4189d1;
+  font-size: 1.5rem;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: .5rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .left-side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header h3 {
-    font-size: 2rem;
-    color: #fff;
-    margin-left: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 2rem;
 }
 
 .menu {
-    color: #fff;
-    font-size: 2.5rem;
-    cursor: pointer;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .right-side {
-    font-size: 2.5rem;
-    color: #fff;
+  font-size: 2.5rem;
+  color: #fff;
 }
 
 .micro {
-    margin-right: 1rem;
-    cursor: pointer;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .setting {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .band p {
-    width: 100%;
-    background-color: rgba(0, 0, 255, 0.308);
-    color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.308);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .band div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.band div input{
-    width: 85%;
-    padding: 1rem;
-    border: none;
-    outline: none;
-    border-radius: 5px;
+.band div input {
+  width: 85%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
 }
 
 .div-search {
-    padding: .8rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    margin-left: .5rem;
-
+  padding: 0.8rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 0.5rem;
 }
 
 .search {
-    color: #4189d1;
-    font-size: 20px;
-    z-index: 10;
-
+  color: #4189d1;
+  font-size: 20px;
+  z-index: 10;
 }
 
 .sort {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.sort select, .sort option {
-    padding: .7rem 2rem;
-    border: none;
-    outline: none;
-    border-radius: 5px;
+.sort select,
+.sort option {
+  padding: 0.7rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
 }
