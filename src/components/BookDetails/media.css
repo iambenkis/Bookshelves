@@ -1,36 +1,38 @@
 @media (min-width: 920px) {
-    .singleBook .header {
-        background-color: #fff;
-    }
+  .detail h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
 
-    .singleBook .header .back,
-    .singleBook .header h3,
-    .singleBook .header .setting {
-        color: #4189d1;
-    }
-    .detail {
-        display: flex;
-        width: 100%;
-        height: 85vh;
-        margin-top: 5vh;
-    }
+  .singleBook .header {
+    background-color: #fff;
+  }
 
-    .detail img{
-        width: 30%;
-    }
-    .detail h3 {
-        font-size: 2rem;
-        margin-top: 2rem;
-        cursor: pointer;
-    }
+  .singleBook .header .back,
+  .singleBook .header h3,
+  .singleBook .header .setting {
+    color: #4189d1;
+  }
 
-    .detail-description {
-        margin: .5rem 1rem;
-    }
+  .detail {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    margin-top: 5vh;
+  }
 
-    .detail-description .item-details {
-        width: 25%;
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
+  .detail img {
+    width: 30%;
+  }
+
+  .detail-description {
+    margin: 0.5rem 1rem;
+  }
+
+  .detail-description .item-details {
+    width: 25%;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
 }
