@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
-import Api from './App';
+import store from './redux/configureStore';
+import App from './App';
+import './style.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <h2>Hello benjamin</h2>
-    <Api />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>,
 );
 
 reportWebVitals();

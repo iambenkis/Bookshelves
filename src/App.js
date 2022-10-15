@@ -1,24 +1,29 @@
-import React from "react";
-import axios from 'axios';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import {
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
+import Home from './components/Home/Home';
+import BookDetail from './components/BookDetails/BookDetails';
+import { fetchBooks, getBooks } from './redux/bookReducer/reducer';
 
-
-
-const Api = () => {
-    const options = {
-        method: 'GET',
-        url: 'https://bookshelves.p.rapidapi.com/books',
-        headers: {
-          'X-RapidAPI-Key': '19e9b2a0fbmsh7c8eba53d77664fp1299bdjsnf9911bd557e8',
-          'X-RapidAPI-Host': 'bookshelves.p.rapidapi.com'
-        }
-      };
-
-      axios.request(options).then(function (response) {
-          console.log(response.data);
-      }).catch(function (error) {
-          console.error(error);
-      });
-
+const App = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchBooks());
+    dispatch(getBooks());
+  }, [dispatch]);
+  return (
+    <>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Navigate replace to="/home" />} />
+        <Route path="/detail/:id" element={<BookDetail />} />
+      </Routes>
+    </>
+  );
 };
 
-export default Api;
+export default App;

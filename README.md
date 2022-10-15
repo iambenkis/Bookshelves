@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# BookShelves metrics app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+>This App is showing few books details, like: title, author, image url, price, review and description.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- Major languages
+  - Javascript
+  - HTML/CSS
+- Frameworks & Libraries
+  - React
+  - Redux
+- Technologies used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![FireShot Capture 003 - Multi Device Website Mockup Generator - techsini com](https://user-images.githubusercontent.com/80458199/195976138-60eff7e9-624d-41b2-a705-a96b24042da2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo (if available)
 
-### `npm run build`
+- Deployed to Netlify. Click below link to visit.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Live Demo](https://634a5de47268306b6cf8fb28--scintillating-cupcake-d003b8.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Video Description
 
-### `npm run eject`
+[Video Presentation](https://drive.google.com/file/d/1YgUeWXF2ihYwtJl1Ut4FGh_CRpcdL2iA/view?usp=sharing)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Open your terminal and navigate to desired folder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone the project from the repo `git clone https://github.com/iambenkis/Bookshelves.git`
 
-## Learn More
+- Change directory to Math Mmagicians folder `cd Bookshelves`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- To start the project on local web server, run `npm run start`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - After this you should be able to see the project on your browser, if not open your browser and visit [http://localhost:3000/](http://localhost:3000/) to view the project.
 
-### Code Splitting
+- To run the available tests, run `npm run test`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+- NodeJS - [v16.x](https://nodejs.org/en/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/iambenkis/Bookshelves.git
+cd ./Bookshelves
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Install
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage
+
+```bash
+npm start
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Run tests
+
+```bash
+npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Deployed to Netlify.
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Benjamin Kisenge (Me)**
+
+* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
+* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
+* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/iambenkis/Bookshelves/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- Powered by [BOOK_SELVES_API](https://rapidapi.com/Ionut-Cora/api/bookshelves/)
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+
