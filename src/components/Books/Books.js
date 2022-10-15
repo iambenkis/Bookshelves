@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { FaChevronCircleRight } from 'react-icons/fa';
 import './Books.css';
+import './media.css';
 import { Link } from 'react-router-dom';
 import StarRating from '../StartRating/StartRating';
 
