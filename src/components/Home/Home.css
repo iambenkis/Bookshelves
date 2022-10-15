@@ -29,6 +29,14 @@
   cursor: pointer;
 }
 
+.bg {
+  width: 100%;
+}
+
+.navlink, .nav{
+  display: none;
+}
+
 .right-side {
   font-size: 2.5rem;
   color: #fff;

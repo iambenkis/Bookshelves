@@ -1,0 +1,17 @@
+@media (min-width : 920px) {
+.book-item {
+    border: 1px solid rgb(189, 189, 189);
+    width: 15%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.books {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+}
