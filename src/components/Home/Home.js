@@ -3,6 +3,7 @@ import { AiOutlineMenuFold, AiOutlineSetting } from 'react-icons/ai';
 import { BiMicrophone, BiSearchAlt2 } from 'react-icons/bi';
 import Books from '../Books/Books';
 import './Home.css';
+import './media.css';
 
 const Home = () => (
   <div className="container">
@@ -16,12 +17,16 @@ const Home = () => (
         <AiOutlineSetting className="setting" />
       </div>
     </div>
+    <div className="navlink"></div>
+    <ul className="nav">
+        <li>Home</li>
+        <li>Books</li>
+        <li>About</li>
+    </ul>
     <img
       src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-      style={
-                { width: '100%' }
-            }
       alt="bg"
+      className="bg"
     />
     <div className="band">
       <p>BOOK WITH STARS AND PRICE</p>
