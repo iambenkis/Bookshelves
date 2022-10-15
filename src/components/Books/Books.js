@@ -18,11 +18,11 @@ const Books = () => {
     <div className="book-container">
       <div className="books">
         {
-                    Books?.filter((b) => b.id < 16).map((book) => (
+                    Books?.filter((b) => b.id < 16).map((book, i) => (
                       <div className="book-item" key={book.id}>
                         <img src={book.imgUrl} alt="img" />
                         <div className="item-details">
-                          <StarRating star={getStars(book.review)} />
+                          <StarRating star={getStars(book.review)} id={i} />
                           <p>{book.price}</p>
                           <Link className={({ isActive }) => `link ${(isActive ? 'active' : '')}`} to={`/detail/${book.id}`}>
                             <FaChevronCircleRight
