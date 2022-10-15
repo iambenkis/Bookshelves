@@ -14,13 +14,17 @@
   - Redux
 - Technologies used
 
+![FireShot Capture 003 - Multi Device Website Mockup Generator - techsini com](https://user-images.githubusercontent.com/80458199/195976138-60eff7e9-624d-41b2-a705-a96b24042da2.png)
+
+
+
 ## Live Demo (if available)
 
 - Deployed to Netlify. Click below link to visit.
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://634a5de47268306b6cf8fb28--scintillating-cupcake-d003b8.netlify.app/)
 
 ## Project Video Description
 
@@ -93,7 +97,7 @@ npm test
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/iambenkis/Bookshelves/issues).
 
 ## Show your support
 
