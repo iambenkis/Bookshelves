@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Open your terminal and navigate to desired folder.
 
-- Clone the project from the repo `git clone https://github.com/iambenkis/Bookshelves.git`
+- Clone the project from the repo `git clone https://github.com/iambenkis/Bookshelves.git`.
 
 - Change directory to Math Mmagicians folder `cd Bookshelves`.
 
