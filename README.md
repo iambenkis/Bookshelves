@@ -30,7 +30,7 @@
 
 [Video Presentation](https://drive.google.com/file/d/1YgUeWXF2ihYwtJl1Ut4FGh_CRpcdL2iA/view?usp=sharing)
 
-## Getting Started
+## Getting Started.
 
 To get a local copy up and running follow these simple example steps.
 
